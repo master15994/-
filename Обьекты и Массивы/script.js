@@ -8,7 +8,7 @@ Array.prototype.double = function () {
     }
   });
 
-  if (typeof item == 'string') {
+  if (typeof item === 'string') {
     return (item += item);
   }
   return newArray;
